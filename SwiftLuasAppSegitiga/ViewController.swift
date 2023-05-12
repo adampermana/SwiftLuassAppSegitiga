@@ -15,7 +15,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var txtTinggi: UITextField!
     
     
-    @IBAction func buttonHitung(_ sender: UIButton) {
+    @IBAction func btnHasil(_ sender: UIButton) {
+    
+    
         
         let alas = txtAlas.text!
                 let tinggi = txtTinggi.text!

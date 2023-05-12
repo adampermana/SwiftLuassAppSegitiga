@@ -51,20 +51,19 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddM-ei-thM">
-                                <rect key="frame" x="100" y="315" width="193" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8O-kO-O3Z">
+                                <rect key="frame" x="20" y="323" width="353" height="35"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                 <connections>
-                                    <action selector="btnHitung:" destination="BYZ-38-t0r" eventType="touchUpInside" id="csa-SC-iC6"/>
-                                    <action selector="buttonHitung:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gfG-uW-hf5"/>
+                                    <action selector="btnHasil:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ayd-Lr-EwB"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ddM-ei-thM" secondAttribute="trailing" constant="100" id="3Pi-jN-aex"/>
+                            <constraint firstItem="z8O-kO-O3Z" firstAttribute="top" secondItem="22j-xd-JuZ" secondAttribute="bottom" constant="25" id="7iL-6h-Dcd"/>
                             <constraint firstItem="7Lk-zn-e89" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="BPS-fS-oYa"/>
                             <constraint firstItem="7Lk-zn-e89" firstAttribute="top" secondItem="Vbe-3x-HrN" secondAttribute="bottom" constant="40" id="FQi-Er-zuE"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pt7-7h-ueL" secondAttribute="trailing" constant="20" id="MKl-KM-1M7"/>
@@ -73,7 +72,7 @@
                             <constraint firstItem="PdA-ak-BR8" firstAttribute="top" secondItem="Pt7-7h-ueL" secondAttribute="bottom" constant="10" id="Yvn-m8-aoN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PdA-ak-BR8" secondAttribute="trailing" constant="20" id="cMH-m7-7CU"/>
                             <constraint firstItem="22j-xd-JuZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cU2-iW-liZ"/>
-                            <constraint firstItem="ddM-ei-thM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="gqf-Ev-reg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="z8O-kO-O3Z" secondAttribute="trailing" constant="20" id="dZj-e7-l8s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Lk-zn-e89" secondAttribute="trailing" constant="20" id="jK5-OG-Rgn"/>
                             <constraint firstItem="Vbe-3x-HrN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="pUw-JC-jhi"/>
                             <constraint firstItem="Pt7-7h-ueL" firstAttribute="top" secondItem="7Lk-zn-e89" secondAttribute="bottom" constant="10" id="pts-OD-q7g"/>
@@ -81,6 +80,7 @@
                             <constraint firstItem="Pt7-7h-ueL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ryI-26-ILs"/>
                             <constraint firstItem="Vbe-3x-HrN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="vA3-IW-f58"/>
                             <constraint firstItem="22j-xd-JuZ" firstAttribute="top" secondItem="PdA-ak-BR8" secondAttribute="bottom" constant="10" id="vRj-fe-0IV"/>
+                            <constraint firstItem="z8O-kO-O3Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="vpk-Il-D6d"/>
                         </constraints>
                     </view>
                     <connections>
